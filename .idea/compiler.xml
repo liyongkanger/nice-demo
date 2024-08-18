@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kafka-demo" />
-        <module name="Test" />
+        <module name="es-demo" />
         <module name="redis-demo" />
+        <module name="Test" />
       </profile>
     </annotationProcessing>
   </component>

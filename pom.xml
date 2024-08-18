@@ -12,6 +12,7 @@
         <module>kafka-demo</module>
         <module>redis-demo</module>
         <module>Test</module>
+        <module>es-demo</module>
     </modules>
 
     <properties>
