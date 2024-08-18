@@ -43,7 +43,7 @@ public class ESAutoConfig {
 
     @Bean
     public CommonEsMngService commonEsMngService(RestHighLevelClient highLevelClient) {
-        return new CommonEsMngServiceImpl(highLevelClient,properties);
+        return new CommonEsMngServiceImpl(properties, highLevelClient);
     }
 
 }
